@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Course Connect</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/search.css" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">   
+
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Course Connect
+                    </a>
+                </li>
+                <li>
+                    <a href="search.html">Search</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Donate</a>
+                </li>
+                                <li>
+                    <a href="index.html">Log Out</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+            <center>
+            <br><br>
+            <h3>State</h3>
+            <form action="/action_page.php" method="get">
+                <input list="states" name="states" placeholder="State">
+                <datalist id="states">
+                    <option value="Alabama">
+                    <option value="Alaska">
+                    <option value="Arizona">
+                    <option value="Arkansas">
+                    <option value="California">
+                    <option value="Colorado">
+                    <option value="Connecticut">
+                    <option value="Delaware">
+                    <option value="Florida">
+                    <option value="Georgia">
+                    <option value="Hawaii">
+                    <option value="Idaho">
+                    <option value="Illinois">
+                    <option value="Indiana">
+                    <option value="Iowa">
+                    <option value="Kansas">
+                    <option value="Kentucky">
+                    <option value="Louisiana">
+                    <option value="Maine">
+                    <option value="Maryland">
+                    <option value="Massachusetts">
+                    <option value="Michigan">
+                    <option value="Minnesota">
+                    <option value="Mississippi">
+                    <option value="Missouri">
+                    <option value="Montana">
+                    <option value="Nebrasks">
+                    <option value="Nevada">
+                    <option value="New Hampshire">
+                    <option value="New Jersey">
+                    <option value="New Mexico">
+                    <option value="New York">
+                    <option value="North Carolina">
+                    <option value="North Dakota">
+                    <option value="Ohio">
+                    <option value="Oklahoma">
+                    <option value="Oregon">
+                    <option value="Pennsylvania">
+                    <option value="Rhode Island">
+                    <option value="South Carolina">
+                    <option value="South Dakota">
+                    <option value="Tennessee">
+                    <option value="Texas">
+                    <option value="Utah">
+                    <option value="Vermont">
+                    <option value="Virginia">
+                    <option value="Washington">
+                    <option value="West Virginia">
+                    <option value="Wisconsin">
+                    <option value="Wyoming">
+                </datalist>
+            </form>
+            <br>
+            <h3>School</h3>
+            <form action="/action_page.php" method="get">
+                <input list="schools" name="schools" placeholder="School">
+                <datalist id="schools">
+                    <option value="East Brunswick High School">
+                    <option value="Lawrenceville">
+                    <option value="Montgomery High School">
+                    <option value="North Brunswick Township High School">
+                    <option value="Peddie School">
+                    <option value="Princeton High School">
+                    <option value="South Brunswick High School">
+                </datalist>
+            </form>
+            <br>
+            <h3>Class</h3>
+            <form action="/action_page.php" method="get">
+                <input list="classes" name="classes" placeholder="Class">
+                <datalist id="classes">
+                    <option value="Advanced Geometry">
+                    <option value="Algebra I">
+                    <option value="Algebra II">
+                    <option value="AP Biology">ss
+                    <option valuse="AP Chemistry">s
+                    <option value="AP Computer Science A">
+                    <option value="AP Physics C">
+                    <option value="AP Physics I">
+                    <option value="Biology I">
+                    <option value="Business Organization and Management">
+                    <option value="Chemistry I">
+                    <option value="Computer Science I">
+                    <option value="English I">
+                    <option value="English II">
+                    <option value="English III">
+                    <option value="English IV">
+                    <option value="Graphic Design I">
+                    <option value="Graphic Design II">
+                    <option value="Geometry">
+                    <option value="Honors Algebra II">
+                    <option value="Honors English I">
+                    <option value="Honors English II">
+                    <option value="Honors English III">
+                    <option value="Honors English IV">
+                    <option value="U.S. History">
+                    <option value="Multivariable Calculus and Linear Algebra">
+                    <option value="Physical Education 10">
+                    <option value="Physics I">
+                    <option value="Pre-Algebra">
+                    <option value="U.S. History">
+                    <option value="Video Communications and Technology">
+                </datalist>
+            </form>
+            <br>
+            <h3>Period/Block</h3>
+            <form action="/action_page.php" method="get">
+                <input list="blocks" name="blocks" placeholder="Period/Block">
+                <datalist id="blocks">
+                    <option value="1A">
+                    <option value="2A">
+                    <option value="3A">
+                    <option value="4A">
+                    <option value="1B">
+                    <option value="2B">
+                    <option value="3B">
+                    <option value="4B">
+                </datalist>
+            </form>
+            <br>
+            <a class="btn btn-primary" href="results.html" role="button">Search</a>
+            <br><br>
+            <h3>Search for Friends</h3>
+            <input list="users" name="users" placeholder="User">
+            <br><br>
+            <a class="btn btn-primary" href="profile.html" role="button">Search</a>
+            </center>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>

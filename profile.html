@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Profile</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="icon" href="assets/favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+        <link href="css/profile.css" rel="stylesheet"> 
+
+    </head>
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(0,0,0,0);
+        }
+        ::-webkit-scrollbar-thumb {
+            background:#888;
+            visibility: hidden;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0084ff;
+            visibility: visible;
+        }
+    </style>
+    <body style="overflow-y: auto">
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Course Connect
+                    </a>
+                </li>
+                <li>
+                    <a href="search.html">Search</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Donate</a>
+                </li>
+                <li>
+                    <a href="index.html">Log Out</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+        <div style="float:left;">
+            <img src="assets/default_profile_pic.svg" style="border:1px solid rgba(12,168,245,1); margin-top: 20px; margin-left: 20px; width:90%; height:auto;">
+            <table class="table table-hover" style="margin-left:20px; width:90%;">
+                <tr>
+                    <th>Name</th>
+                    <td>Evelyn Fu</td>
+                </tr>
+                <tr>
+                    <th>School</th>
+                    <td>South Brunswick High School</td>
+                </tr>
+                <tr>
+                    <th>Grade</th>
+                    <td>10</td>
+                </tr>
+            </table>
+        </div>
+        <div style="float:left; margin:20px;">
+            <h1 class="display-4" style="font-size:40px;">Friends (3)</h1>
+            <div style="height:250px; overflow-y:scroll">
+                <table class="table table-hover">
+                    <tr>
+                        <th>Name</th>
+                        <th>School</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>Dale Nacianceno</td>
+                        <td>South Brunswick High School</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>Sai Maduri</td>
+                        <td>South Brunswick High School</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Prad Tinnanur</td>
+                        <td>South Brunswick High School</td>
+                        <td>12</td>
+                    </tr>
+                </table>
+            </div>
+            <h1 class="display-4" style="font-size:40px; margin-top:20px;">Schedule</h1>
+            <div style="height:250px; overflow-y:scroll">
+                <table class="table table-hover">
+                    <tr>
+                        <th>Course</th>
+                        <th>Block</th>
+                        <th>Shared</th>
+                    </tr>
+                    <tr>
+                        <td>Honors US History</td>
+                        <td>1A</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>AP Chemistry</td>
+                        <td>2A/2B</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Multivariable Calculus and Linear Algebra</td>
+                        <td>3A</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Honors English II</td>
+                        <td>4A</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>AP Computer Science A</td>
+                        <td>1B</td>
+                        <td><button class="btn btn-outline-success disabled">✓</button></td>
+                    </tr>
+                    <tr>
+                        <td>Physical Education 10</td>
+                        <td>3B</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Honors Latin III</td>
+                        <td>4B</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <h1 clsas="display-4" style="font-size:40px;">
+        </div>
+        </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>   
+
+    </body>
+
+
+
+</html>
